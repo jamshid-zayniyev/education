@@ -6,7 +6,7 @@ import { MdOutlineCancel } from "react-icons/md";
 import logo from "../assets/logo.png"
 
 const Navbar = () => {
-  const [toggle,setToggle] = useState(true)
+  const [toggle,setToggle] = useState(false)
   return (
     <div className='containerr flex justify-between items-center bg-[white] h-[100px] w-full '>
       {/* logo  */}
