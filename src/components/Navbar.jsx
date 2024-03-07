@@ -8,14 +8,14 @@ import logo from "../assets/logo.png"
 const Navbar = () => {
   const [toggle,setToggle] = useState(false)
   return (
-    <div className='containerr flex justify-between items-center bg-[white] h-[100px] w-full '>
+    <div className='containerr z-[10] flex fixed justify-between items-center bg-[white] h-[80px] md:h-[100px] w-full '>
       {/* logo  */}
         <div className='w-[150px] md:w-[200px] cursor-pointer'>
             <img src={logo} alt="logo" className='w-full'/>
         </div>
 
       {/* nav-items    */}
-        <div className={`text-[#0a2050] md:block md:static md:w-full absolute top-[100px]  w-[50%] ${toggle ? 'left-0 backdrop-blur' : 'left-[-100%]'} transition-[1s] md:p-0 p-[20px]`}>
+        <div className={`text-[#0a2050] md:block md:static md:w-full absolute top-[80px]  w-[50%] ${toggle ? 'left-0 backdrop-blur' : 'left-[-100%]'} transition-[1s] md:p-0 p-[20px]`}>
           <nav>
             <ul className='flex md:flex-row md:justify-end flex-col gap-10 md:text-[18px] lg:text-[22px] font-bold'>
               <li className='hover:text-[#e0e05f]'><a href="#">Home</a></li>
