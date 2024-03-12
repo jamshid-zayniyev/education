@@ -9,6 +9,7 @@ import Courses from '../components/Courses'
 import Register from '../components/Register'
 import Form from '../components/Form'
 import Experts from '../components/Experts'
+import Footer from '../components/Footer'
 
 const Main = () => {
   return (
@@ -19,6 +20,7 @@ const Main = () => {
         <Courses/>
         <Register/>
         <Experts/>
+        <Footer/>
     </div>
   )
 }

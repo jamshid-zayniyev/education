@@ -5,7 +5,7 @@ import home_img from "../assets/back.jpg"
 
 const Home = () => {
   return (
-    <div className='relative w-full h-[100vh] parda'>
+    <div className='relative w-full h-[100vh] parda' id='home'>
         {/* <img src={home_img} alt="home_img" className='absolute w-full h-[100vh] top-0 left-0'/> */}
         <div className='absolute z-[2] w-full h-[100vh] flex flex-col gap-3 justify-center items-center'>
             <h1 className='text-[25px] md:text-[30px] lg:text-[40px] font-bold text-[white]'>Eng yuqori sifatdagi ta'lim</h1>

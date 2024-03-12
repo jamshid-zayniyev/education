@@ -28,7 +28,7 @@ const DYMMY_DATA=[
 
 const Feature = () => {
   return (
-    <div>
+    <div id='about'>
         <Title title='Awesome Feature' description='Replenish man have thing gathering lights yielding shall you'/>
         <div className='flex  flex-wrap justify-center   gap-10 my-16 lg:px-10 md:px-8 sm:px-5 px-3'>
             {
