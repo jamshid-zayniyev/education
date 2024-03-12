@@ -7,6 +7,7 @@ import Home from '../components/Home'
 import Feature from '../components/Feature'
 import Courses from '../components/Courses'
 import Register from '../components/Register'
+import Form from '../components/Form'
 
 const Main = () => {
   return (
@@ -15,7 +16,8 @@ const Main = () => {
         <Home/>
         <Feature/>
         <Courses/>
-        {/* <Register/> */}
+        <Register/>
+        {/* <Form/> */}
     </div>
   )
 }
