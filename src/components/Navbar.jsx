@@ -8,7 +8,7 @@ import logo from "../assets/logo.png"
 const Navbar = () => {
   const [toggle,setToggle] = useState(false)
   return (
-    <div className='containerr z-[10] flex fixed justify-between items-center bg-[white] h-[80px] md:h-[100px] w-full '>
+    <div className='containerr z-[100] flex fixed justify-between items-center bg-[white] h-[80px] md:h-[100px] w-full '>
       {/* logo  */}
         <div className='w-[150px] md:w-[200px] cursor-pointer'>
             <img src={logo} alt="logo" className='w-full'/>

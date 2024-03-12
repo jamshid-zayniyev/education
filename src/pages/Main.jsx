@@ -8,6 +8,7 @@ import Feature from '../components/Feature'
 import Courses from '../components/Courses'
 import Register from '../components/Register'
 import Form from '../components/Form'
+import Experts from '../components/Experts'
 
 const Main = () => {
   return (
@@ -17,7 +18,7 @@ const Main = () => {
         <Feature/>
         <Courses/>
         <Register/>
-        {/* <Form/> */}
+        <Experts/>
     </div>
   )
 }
