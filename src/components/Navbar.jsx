@@ -18,11 +18,11 @@ const Navbar = () => {
         <div className={`text-[#0a2050] md:block md:static md:w-full absolute top-[80px]  w-[50%] ${toggle ? 'left-0 backdrop-blur' : 'left-[-100%]'} transition-[1s] md:p-0 p-[20px]`}>
           <nav>
             <ul className='flex md:flex-row md:justify-end flex-col gap-10 md:text-[18px] lg:text-[22px] font-bold'>
-              <li className='hover:text-[#e0e05f]'><a href="#home">Home</a></li>
-              <li className='hover:text-[#e0e05f]'><a href="#about">About</a></li>
-              <li className='hover:text-[#e0e05f]'><a href="#blog">Blog</a></li>
-              <li className='hover:text-[#e0e05f]'><a href="#courses">Courses</a></li>
-              <li className='hover:text-[#e0e05f]'><a href="#contact">Contact</a></li>
+              <li className='hover:text-[#e0e05f]' onClick={()=>setToggle(false)}><a href="#home">Home</a></li>
+              <li className='hover:text-[#e0e05f]' onClick={()=>setToggle(false)}><a href="#about">About</a></li>
+              <li className='hover:text-[#e0e05f]' onClick={()=>setToggle(false)}><a href="#blog">Blog</a></li>
+              <li className='hover:text-[#e0e05f]' onClick={()=>setToggle(false)}><a href="#courses">Courses</a></li>
+              <li className='hover:text-[#e0e05f]' onClick={()=>setToggle(false)}><a href="#contact">Contact</a></li>
             </ul>
           </nav>
         </div>
